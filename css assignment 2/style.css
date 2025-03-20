@@ -1,0 +1,310 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Open Sans", sans-serif;
+    /* background-color: #F7F7F7;  */
+    overflow-x: hidden;
+}
+
+.main-content{
+    box-shadow: 0px 5px 8px rgba(0, 0, 0, 0.16);
+    background-color: white;
+    height: 70%;
+    width: 100%;
+    margin: 0 auto;
+}
+.logo{
+   width: 35px;
+   height: 35px;
+   border-radius: 5px;
+   margin-left: 60px;
+   margin-top: 20px;
+   margin-bottom: 10px;
+   cursor: pointer;
+}
+.heading{
+    color: #f02a80;
+    width: 130px;
+    margin-left:105px ;
+    margin-top: -45px;
+    cursor: pointer;
+}
+.button-1{
+    width: 70px;
+    height: 30px;
+    border-radius: 10px;
+    font-family: bold serif;
+    font-weight: bold;
+    font-size: 15px;
+    background-color:white;
+    color: gray;
+    border: 1px solid;
+    cursor: pointer;
+    display: inline-block;
+    margin-left: 950px;
+    position: relative;
+    top: -30px;
+}
+.button-1:hover{
+    background-color: #F0F2F2;
+    transform: scale(1.2);
+    transition: 0.2s;
+}
+.button-2{
+    width: 70px;
+    height: 30px;
+    border-radius: 10px;
+    font-family: bold serif;
+    font-weight: bold;
+    font-size: 15px;
+    background-color:#f02d82;
+    color:white ;
+    border: 1px solid;
+    cursor: pointer;
+    display: inline-block;
+    margin-left: 950px;
+    position: relative;
+    top: -60px;
+    left: 90px;
+}
+.button-2:hover{
+    background-color:#c40b5b;
+    transform: scale(1.2);
+    transition: 0.2s;
+}
+.inline{
+    width: 5px;
+    margin-left: 1152px;
+    top: -112px;
+    padding: 5px;
+    position: relative;   
+}
+.inline:hover{
+    background-color: white;
+    transform: scale(1.2);
+    transition: 0.2s;
+    cursor: pointer;
+}
+.globe{
+    margin-left: 1130px;
+    top: -86px;
+    padding: 5px;
+    position: relative;
+}
+.globe:hover{
+    background-color: white;
+    transform: scale(1.2);
+    transition: 0.2s;
+    cursor: pointer;
+}
+.arrow{
+    margin-left: 1187px;
+    top: -140px;
+    padding: 5px;
+    position: relative;
+    color: #dd0060;
+}
+.arrow:hover{
+    background-color: #F0F2F2;
+    transform: scale(1.2);
+    transition: 0.2s;
+    cursor: pointer;
+}
+.cart{
+    margin-left: 1235px;
+    top: -170px;
+    padding: 10px;
+    position: relative;
+    color: #dd0060;
+}
+.cart:hover{
+    border-radius: 50px;
+    background-color: #F0F2F2;
+    transform: scale(1.2);
+    transition: 0.2s;
+    cursor: pointer;
+}
+.color{
+    background-color: #F7F7F7;
+    height: 590px;
+}
+.herosection{
+    width: 1366px;
+    margin-top: -150px;
+    position: relative;
+}
+.picture{
+    width: 868px;
+    left: 800px;
+    position: relative;
+    top: 10px;
+}
+.hero-heading{
+    font-size: 42px;
+    padding: 60px;
+    position: relative;
+    top: -450px;
+    letter-spacing: -0.6px;
+}
+.placebar{
+    background-color: white;
+    border-radius: 15px;
+    width: 700px;
+    height: 80px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 44, 0.1);
+    position: relative;
+    top: -280px;
+    left: 60px;
+}
+.input{
+    height: 50px;
+    width: 555px;
+    border-radius: 10px;
+    top: 16px;
+    position: relative;
+    padding-left: 20px;
+    left: 15px;
+    bottom: 10px;
+}
+input::placeholder{
+    font-size: medium;
+    
+}
+.locate{
+    position: relative;
+    left: -110px;
+    top: 17px;
+    width: 100px;
+    height: 100px;
+    color:#dd0060;
+    cursor: pointer;
+}
+.locate-text{
+    position: relative;
+    top: -83px;
+    color: rgb(75, 74, 74);
+    font-size: 15px;
+    left: 470px;
+    cursor: pointer;
+}
+.button-3{
+    width: 100px;
+    height: 50px;
+    border-radius: 10px;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    background-color:#dd0060;
+    color: white;
+    border: 1px solid #dd0060;
+    cursor: pointer;
+    display: inline-block;
+    left: 585px;
+    position: relative;
+    top: -117px;
+}
+.button-3:hover{
+    background-color:#b80a55;
+    transform: scale(1.1);
+    transition: 0.2s;
+}
+.heading-2{
+    font-size: 2rem;
+    padding-left: 60px;
+    position: relative;
+    top: -5px;
+}
+.chef-img{
+    width: 100%;
+    min-height:410px ;
+    position: relative;
+    top: 25px;
+    background-image: url(./home-vendor-pk.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: center;
+}
+.card{
+    background-color: rgb(255, 255, 255);
+    border-radius: 15px;
+    width: 610px;
+    height: 330px; 
+    margin-left: 60px;
+    position: relative;
+    top: 250px;
+    box-shadow: 0px 5px 8px rgba(0, 0, 0, 0.18);
+}
+.card-text{
+    word-spacing: 0.2px;
+    letter-spacing: 0.2px;
+    font-size: 25px;
+    position: relative;
+    left: 25px;
+    top: 25px;
+}
+.cardtext-1{
+    position: relative;
+    left: 25px;
+    top: 50px;
+    line-height: 23px;
+    letter-spacing: 0.1px;
+    word-spacing: 0.6px;
+}
+.btn-4{
+    width: 110px;
+    height: 45px;
+    border-radius: 8px;
+    font-family: sans-serif;
+    font-size: 15px;
+    background-color:#dd0060;
+    color: white;
+    border: 1px solid #dd0060;
+    cursor: pointer;
+    display: inline-block;
+    left: 25px;
+    position: relative;
+    top: 70px;
+}
+.btn-4:hover{
+    background-color:#b80a55;
+    transform: scale(1.1);
+    transition: 0.2s;
+}
+.city-heading{
+    position: relative;
+    top: 340px;
+    left: 60px;
+    color: #2e2e2e;
+}
+
+.bg{
+    min-width: 300px;
+    max-width: 300px;
+    height: 190px;
+    border-radius: 10px;
+    position: relative;
+    top: 380px;
+    left: 60px;
+    overflow: hidden;
+}
+
+.islamabad{
+    width: 300px;
+    height: 250px;
+    border-radius: 10px;
+    position: relative;
+    left: 0.1px;
+    z-index: 1;
+}
+
+.bg:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: all 0.3s ease;
+    object-fit: cover;
+}
+
